@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e
+set -e -v
 
 resolve_link() {
   $(type -p greadlink readlink | head -1) "$1"
